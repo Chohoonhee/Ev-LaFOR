@@ -1,1 +1,1 @@
-# Label-Free-Event-based-Object-Recognition-via-Joint-Learning-with-Image-Reconstruction-from-Events
+# Ev-LaFOR (ICCV 2023 Oral)
