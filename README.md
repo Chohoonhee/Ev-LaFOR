@@ -9,13 +9,13 @@ Image Reconstruction from Events" paper (ICCV 2023, Oral).
 
 
 ## Qualitative Results on N-Caltech101 and N-ImageNet100 datasets
-<img src="https://github.com/Chohoonhee/Ev-LaFOR/imgs/qual_result.png" width="100%" height="100%">
+<img src="https://github.com/Chohoonhee/Ev-LaFOR/tree/main/imgs/qual_result.png" width="100%" height="100%">
 <!--
 ![real_event_045_resized](/figure/video_results_real_event3.gif "real_event_045_resized")
 -->
 
 ### Quantitative results on N-Caltech101 and N-ImageNet100 datasets
-<img src="https://github.com/Chohoonhee/Ev-LaFOR/imgs/quan_result.png" width="60%" height="60%">
+<img src="https://github.com/Chohoonhee/Ev-LaFOR/tree/main/imgs/quan_result.png" width="60%" height="60%">
 
 
 
