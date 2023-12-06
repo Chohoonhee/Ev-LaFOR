@@ -9,13 +9,13 @@ Image Reconstruction from Events" paper (ICCV 2023, Oral).
 
 
 ## Qualitative Results on N-Caltech101 and N-ImageNet100 datasets
-<img src="https://github.com/intelpro/CBMNet/raw/main/figure/popcorn.gif" width="100%" height="100%">
+<img src="https://github.com/Chohoonhee/Ev-LaFOR/qual_result" width="100%" height="100%">
 <!--
 ![real_event_045_resized](/figure/video_results_real_event3.gif "real_event_045_resized")
 -->
 
 ### Quantitative results on N-Caltech101 and N-ImageNet100 datasets
-<img src="https://github.com/intelpro/CBMNet/raw/main/figure/Quantitative_eval_ERF_x170FPS.png" width="60%" height="60%">
+<img src="https://github.com/Chohoonhee/Ev-LaFOR/quan_result" width="60%" height="60%">
 
 
 
@@ -28,14 +28,18 @@ Image Reconstruction from Events" paper (ICCV 2023, Oral).
 Train & Test on N-Caltech 101 Dataset
 
 ```bash
-    $ python run_samples.py  --model_name ours --ckpt_path pretrained_model/ours_weight.pth --save_output_dir ./output --image_number 0
+    $ python pretraining_event_with_prototype_caltech.py -en $experiment_name$ -d caltech_ours --ssl_spatial --inverse --n_mask 6
 ```
+
 
 Train & Test on N-ImageNet 100 Dataset
 
 ```bash
-    $ python run_samples.py  --model_name ours_large --ckpt_path pretrained_model/ours_large_weight.pth --save_output_dir ./output --image_number 0
+    $ python pretraining_event_with_prototype_imagenet.py -en $experiment_name$ -d imagenet100 --ssl_spatial --inverse --n_mask 6
 ```
+
+You can also use the multi prototype by adding the --multi_proto
+
 
 ## Reference
 > Hoonhee Cho*, Hyeonseong Kim*, Yujeong Chae, and Kuk-Jin Yoon "Label-Free Event-based Object Recognition via Joint Learning with Image Reconstruction from Events", In _ICCV_, 2023.
