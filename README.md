@@ -2,20 +2,20 @@
 
 This repository contains the official PyTorch implementation of the paper "Label-Free Event-based Object Recognition via Joint Learning with
 Image Reconstruction from Events" paper (ICCV 2023, Oral).
-
 \[[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Cho_Label-Free_Event-based_Object_Recognition_via_Joint_Learning_with_Image_Reconstruction_ICCV_2023_paper.pdf)\] 
 
 
 
 
 ## Qualitative Results on N-Caltech101 and N-ImageNet100 datasets
-<img src="https://github.com/Chohoonhee/Ev-LaFOR/tree/main/imgs/qual_result.png" width="100%" height="100%">
-<!--
-![real_event_045_resized](/figure/video_results_real_event3.gif "real_event_045_resized")
--->
+%%<img src="https://github.com/Chohoonhee/Ev-LaFOR/tree/main/imgs/qual_result.png" width="100%" height="100%">
+![alt text](https://github.com/Chohoonhee/Ev-LaFOR/tree/main/imgs/qual_result.png)
+
+
 
 ### Quantitative results on N-Caltech101 and N-ImageNet100 datasets
 <img src="https://github.com/Chohoonhee/Ev-LaFOR/tree/main/imgs/quan_result.png" width="60%" height="60%">
+![alt text](https://github.com/Chohoonhee/Ev-LaFOR/tree/main/imgs/quan_result.png)
 
 
 
