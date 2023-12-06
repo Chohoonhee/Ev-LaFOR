@@ -1,0 +1,2 @@
+prompt = ['laptop', 'bass', 'joshua_tree', 'Leopards', 'ibis', 'hedgehog', 'minaret', 'crocodile', 'flamingo', 'headphone', 
+        'ketch', 'saxophone', 'euphonium', 'dragonfly', 'wrench', 'llama', 'lamp', 'kangaroo', 'yin_yang', 'sea_horse']

@@ -1,0 +1,2 @@
+prompt = ['airplanes', 'sunflower', 'stegosaurus', 'snoopy', 'emu',
+       'mandolin', 'barrel', 'octopus', 'electric_guitar', 'chair']
