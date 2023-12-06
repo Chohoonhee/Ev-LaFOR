@@ -85,10 +85,10 @@ N_ImageNet (For Event)
 #### Data Path Change
 
 datasets/caltech_event_ours_unpair_noise.py
-   -L136: data_dir = $your caltech-101 path$, event_dir = $your N-Caltech 101 path$
+   -L136: data_dir = "your caltech-101 path", event_dir = "your N-Caltech 101 path"
 
 datasets/N_imagenet100_noise.py
-   -L115: data_dir = $your ImageNet path$, event_dir = $your N-ImageNet path$
+   -L115: data_dir = "your ImageNet path", event_dir = "your N-ImageNet path"
 
 ## Training & Test Code
 
